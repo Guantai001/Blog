@@ -4,7 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 500px;
+    height: 400px;
     width: 100%;
     position: relative;
     z-index: 0;
@@ -13,3 +13,94 @@
 .pt-5, .py-5 {
     padding-top: 3rem!important;
 }
+    
+        /* My portifolio */
+
+        #portfolio{
+            padding: 50px 0;
+        }
+        .work-list {
+            align-items: center;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+        grid-gap: 40px;
+        margin-top: 40px;
+        margin-left: 30px;
+        padding-left: 50px;
+        }
+        .work{
+            border-radius: 10px;
+            position: relative;
+            overflow: hidden;  
+            color: #fff;
+         
+        }
+        .work img{
+            width: 100%;
+            border-radius: 40px;
+           transition: transform 0.5s;
+        }
+        .layer{
+            width: 100%;
+            height: 0%;
+            background: linear-gradient(rgba(0,0,0,0.6) , #5e7af3);
+            border-radius: 15px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            overflow: hidden;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 0 40px;
+            text-align: center;
+        }
+        .layerh3 {
+            font-weight: bold;
+            margin-bottom: 15px;
+        
+        }
+        .sub-title{
+           text-align: center;
+        }
+        .layer a{
+            margin-top: 20px;
+            color: #416c7c;
+            text-decoration: none;
+            font-size: 18px;
+            line-height: 60px;
+            background: #ffffff;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            text-align: center;
+            transition: 0.5s;
+        }
+        .work:hover img{
+            transform: scale(1.1);
+        }
+        .work:hover .layer{
+            height:100%
+        }
+        .btn{
+            display:block;
+            margin: 50px auto;
+            width: fit-content;
+            border: 1px solid #F1B24A;
+            padding: 14px 50px;
+            border-radius: 7px;
+            text-decoration: none;
+            color: #fff;
+            transition: background 0.5s;
+        
+        }
+        .btn:hover {
+            background: #4a71f1;
+            
+        }
+
+.work-list{
+
+}        
+
