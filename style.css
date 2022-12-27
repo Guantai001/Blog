@@ -130,13 +130,16 @@
 	width: 100%;
 	padding:100px px;
     margin-top: 0px;
+    text-align: center;
 }
 .testimonials h3 {
     
     text-align: center;
 }
+
 .testimonials h2 {
-    text-align: center;
+ float: none;
+   
     font-size: 40px;
     font-weight: 600;
     color: #000000;
@@ -149,12 +152,13 @@
 }
 
 .testimonials .title{
-	margin-bottom:60px
+	margin-bottom:60px;
+  margin-top: 20px;
 }
 
 .testimonials .title h1{
 	text-align: center;
-	color:#fff;
+	color:rgb(0, 0, 0);
 	font-size: 36px;
 	margin:0;
 }
@@ -364,3 +368,38 @@ footer{
     }
   }
 
+  #cent{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  h2 {
+    float: left;
+    width: 170px;
+}
+.popup {
+  margin-top: 10px;
+    float: left;
+    width: 340px;
+    background: #081131;
+    padding: 10px;
+    border-radius: 6px;
+    color: #FFF;
+    position: relative;
+    font-size: 12px;
+    line-height: 20px;
+}
+.popup:before {
+    content: "";
+    display: block;
+    width: 0; 
+    height: 0; 
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-right: 12px solid #081131; 
+    position: absolute;
+    top: 16px;
+    left: -12px;
+}
