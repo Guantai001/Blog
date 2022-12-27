@@ -19,6 +19,23 @@
 .pt-3, .py-5 {
     padding-top: 3rem!important;
 }
+
+/* about */
+#row1 #card1 img{
+    width: 420px;
+    height: 420px;
+    border-radius: 10%;
+   
+    box-shadow: 0 0 10px rgba(56, 36, 236, 0.5);
+}
+#row1{
+    display: flex;
+    /* even space btwn */
+    justify-content: space-evenly;
+}
+#row3{
+    padding-top: 30px;
+}
     
         /* My portifolio */
 
@@ -216,7 +233,7 @@
 /* footer */
 footer{
   
-    
+   margin-top: 20px;
     width: 100%;
  position: absolute;
     bottom:130;
@@ -230,7 +247,7 @@ footer{
 
     max-width: 1350px;
     margin: auto;
-    padding: 20px;
+    padding: 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -246,7 +263,7 @@ footer{
     font-size: 22px;
     font-weight: 600;
     color: #fff;
-    margin-bottom: 16px;
+    margin-bottom: 5px;
   
   }
   footer .content p{
@@ -264,6 +281,19 @@ footer{
   footer .content .middle a{
     line-height: 32px;
   }
+#messo {
+    margin-top: 10px;
+    padding-top: 10px;
+    height: 95px;
+    width: 100%;
+    outline: none;
+    color: #d9d9d9;
+    background: #081131;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 2px solid #ffffff;  
+}
   footer .content .right input[type="text"]{
     height: 45px;
     width: 100%;
@@ -273,26 +303,11 @@ footer{
     border-radius: 5px;
     padding-left: 10px;
     font-size: 17px;
-    border: 2px solid #222222;
+    border: 2px solid #ffffff;
   }
-  footer .content .right input[type="submit"]{
-    height: 42px;
-    width: 100%;
-    font-size: 18px;
-    color: #d9d9d9;
-    background: #eb2f06;
-    outline: none;
-    border-radius: 5px;
-    letter-spacing: 1px;
-    cursor: pointer;
-    margin-top: 12px;
-    border: 2px solid #eb2f06;
-    transition: all 0.3s ease-in-out;
-  }
-  .content .right input[type="submit"]:hover{
-    background: none;
-    color:  #eb2f06;
-  }
+
+  
+ 
   footer .content .media-icons a{
     font-size: 16px;
     height: 45px;
@@ -306,22 +321,22 @@ footer{
     transition: all 0.3s ease;
   }
   .content .media-icons a:hover{
-    border-color: #eb2f06;
+    border-color: #ffffff;
   }
   footer .bottom{
     width: 100%;
-    text-align: right;
+    text-align: center;
     color: #d9d9d9;
     padding: 0 40px 5px 0;
   }
   footer .bottom a{
-    color: #eb2f06;
+    color: #ffffff;
   }
   footer a{
     transition: all 0.3s ease;
   }
   footer a:hover{
-    color: #eb2f06;
+    color: #ffffff;
   }
   @media (max-width:1100px) {
     footer .content .middle{
@@ -349,10 +364,3 @@ footer{
     }
   }
 
-  .container-fluid{
-   
-    color: #fff;
-    padding: 20px;
-    margin-top: 20px;
-    width: 100% !important;
-  }

@@ -2,6 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Fauna+One&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/68728c11a0.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BlogWeb</title>
      <!-- Swiper CSS -->
@@ -80,28 +85,28 @@
 
 <!-- About us -->
 <div class="container mt-5">
-  <div class="row">
-    <div class="card" style="width: 28rem;">
+  <div id="row1">
+    <div id="card1">
       <img src="photos/Image3.jpg" class="card-img-top" alt="Responsive image">
     </div>
     <div class="col-sm-12 col-md-6 col-lg-6">
-      <h1 class="text-left">About Us</h1>
-      <h2 class="text-left">Who We Are.</h2>
+      <h1 class="text-center">About Us</h1>
+      <h2 class="text-center">Who We Are.</h2>
       <p class="text-center">CTRL-PR gets your story out there. We are a PR Agency specializing in the development of modern and innovative PR solutions for startup businesses around the world. Whoever you want to influence, we help you to change the way customers see your brand. We cover a variety of domains, this includes but not limited to tech, Web3(blockchain and cryptocurrencies), retail businesses, financial institutions, B2B companies, fashion and lifestyle..</p>
       <button type="button" class="btn btn-outline-primary">Learn More</button>
     </div>
    
   </div>
 
-  <div id="row">
-    <div class="row mt-5">
-      <div class="col-sm-12 col-md-6 col-lg-6">
+  <div id="row3">
+    <div id="row1">
+            <div class="col-sm-12 col-md-6 col-lg-6">
         <h1 class="text-left">How We Work</h1>
-        <p class="text-center">Our team of PR professionals will work with you to develop and convey your brand’s story to your target audience. We have a few different strategies to do this. First, we craft the best angle to tell your story. Then we make pitch to specific writers who are our close personal contacts and who we find are exactly right for you. With the professional content writer, we then make sure to select the right media outlets to capture your audience’s attention.</p>
+        <p class="text-left">Our team of PR professionals will work with you to develop and convey your brand’s story to your target audience. We have a few different strategies to do this. First, we craft the best angle to tell your story. Then we make pitch to specific writers who are our close personal contacts and who we find are exactly right for you. With the professional content writer, we then make sure to select the right media outlets to capture your audience’s attention.</p>
         <button type="button" class="btn btn-outline-primary mt-5">Learn More</button>
       </div>
-      <div class="card mt-5" style="width: 28rem;">
-        <img src="photos/Image4.jpg" class="card-img-top " alt="Responsive image"> 
+      <div id="card1">
+        <img src="photos/Image3.jpg" class="card-img-top" alt="Responsive image">
       </div>
     </div>
   </div>
@@ -150,7 +155,7 @@
    
                   
      <div class="work">
-    <img src="photos/Image1.jpg" >
+    <img src="photos/img7.jpg" >
       <div class="layer">
      <h3>Media Placements</h3>
      <p>We have the know-how to increase your company’s visibility and generate sales-ready prospects and leads.</p>
@@ -160,7 +165,7 @@
         </div>
 
         <div class="work">
-          <img src="photos/Image1.jpg" >
+          <img src="photos/IMG6.jpg" >
             <div class="layer">
            <h3>Tech PR</h3>
            <p>Together with clients, we can seed, cultivate, and promote brand activities that align with business plans.</p>
@@ -284,9 +289,8 @@
   <div class="content">
     <div class="left box">
       <div class="upper">
-        <div class="topic">About us</div>
-        <p>CodingLab is a channel where you can learn HTML,
-        CSS, and also JavaScript along with creative CSS Animations and Effects.</p>
+        <div class="topic">What Is Our Pricing Strategy?</div>
+        <p>In terms of pricing, we are sure to do more with less, while delivering higher consistency and quality.  This means we are very flexible in terms of pricing and can adapt to your business’ needs and budgets. For more information on what we do and our prices, contact us today, and we are happy to discuss pricing with you!</p>
       </div>
       <div class="lower">
         <div class="topic">Contact us</div>
@@ -299,19 +303,22 @@
       </div>
     </div>
     <div class="middle box">
-      <div class="topic">Our Services</div>
+      <!-- <div class="topic">Our Services</div>
       <div><a href="#">Web Design, Development</a></div>
       <div><a href="#">Web UX Design, Reasearch</a></div>
       <div><a href="#">Web User Interface Design</a></div>
       <div><a href="#">Theme Development, Design</a></div>
       <div><a href="#">Mobile Application Design</a></div>
-      <div><a href="#">Wire raming & Prototyping</a></div>
+      <div><a href="#">Wire raming & Prototyping</a></div> -->
     </div>
     <div class="right box">
       <div class="topic">Subscribe us</div>
       <form action="#">
         <input type="text" placeholder="Enter email address">
-        <input type="submit" name="" value="Send">
+        <textarea id = "messo"name="Message" rows="5" placeholder="Your Message"></textarea>
+
+        <button type="button" class="btn btn-outline-primary mt-5 text-center">send</button>
+      
         <div class="media-icons">
           <a href="#"><i class="fab fa-facebook-f"></i></a>
           <a href="#"><i class="fab fa-instagram"></i></a>
@@ -323,7 +330,8 @@
     </div>
   </div>
   <div class="bottom">
-    <p>Copyright © 2020 <a href="#">CodingLab</a> All rights reserved</p>
+    <p>Copyright ©CTRL-PR. <a href="#">2023
+    </a> All rights reserved</p>
   </div>
 </footer>
 </div>
